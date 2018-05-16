@@ -2,8 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df435265-442c-4124-984e-019ea06675b9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/android-icon-144x144.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/android-icon-192x192.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/android-icon-36x36.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/android-icon-48x48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/android-icon-72x72.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/android-icon-96x96.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/apple-icon-114x114.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/apple-icon-120x120.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/apple-icon-144x144.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/apple-icon-152x152.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/apple-icon-180x180.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/apple-icon-57x57.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/apple-icon-60x60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/apple-icon-72x72.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/apple-icon-76x76.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/apple-icon-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/apple-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/favicon-16x16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/favicon-32x32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/favicon-96x96.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/ms-icon-144x144.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/ms-icon-150x150.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/ms-icon-310x310.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/ms-icon-70x70.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icons/wcls-logo-512.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sw-toolbox.js" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/pwa-icons/android-icon-144x144.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/pwa-icons/android-icon-192x192.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/pwa-icons/android-icon-36x36.png" afterPath="" />
@@ -21,7 +48,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/pwa-icons/apple-icon-76x76.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/pwa-icons/apple-icon-precomposed.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/pwa-icons/apple-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pwa-icons/browserconfig.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/pwa-icons/favicon-16x16.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/pwa-icons/favicon-32x32.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/pwa-icons/favicon-96x96.png" afterPath="" />
@@ -31,8 +57,11 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/pwa-icons/ms-icon-150x150.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/pwa-icons/ms-icon-310x310.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/pwa-icons/ms-icon-70x70.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sw.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pwa-icons/browserconfig.xml" afterPath="$PROJECT_DIR$/icons/browserconfig.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sw.js" afterPath="$PROJECT_DIR$/sw.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -136,12 +165,12 @@
       <option name="presentableId" value="Default" />
       <updated>1526479044022</updated>
       <workItem from="1526479045822" duration="848000" />
-      <workItem from="1526479928830" duration="3000" />
+      <workItem from="1526479928830" duration="55000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="851000" />
+    <option name="totallyTimeSpent" value="903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
