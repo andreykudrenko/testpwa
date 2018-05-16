@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <!--        //pwa//-->
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/pwa-icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/pwa-icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/pwa-icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/pwa-icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/pwa-icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/pwa-icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/pwa-icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/pwa-icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/pwa-icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/img/pwa-icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/pwa-icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/pwa-icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/pwa-icons/favicon-16x16.png">
+    <link rel="manifest" href="/img/pwa-icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/img/pwa-icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js').then(function(reg) {
+                // регистрация сработала
+                console.log('Registration succeeded!. Scope is ' + reg.scope);
+            }).catch(function(error) {
+                // регистрация прошла неудачно
+                console.log('Registration failed with ' + error);
+            });
+        };
+    </script>
+    <!--        pwa-->
+</head>
+<body>
+    <h1>Hello PWA!</h1>
+</body>
+</html>
