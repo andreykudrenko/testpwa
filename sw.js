@@ -4,6 +4,7 @@
 // toolbox.router.get('/images/*', toolbox.cacheFirst);
 // toolbox.router.get('/*', toolbox.networkFirst, { networkTimeoutSeconds: 5});
 
+console.log('aa');
 
 self.addEventListener('install', function(event) {
     event.waitUntil(
